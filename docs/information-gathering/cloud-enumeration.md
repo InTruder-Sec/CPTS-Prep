@@ -1,5 +1,6 @@
 ---
 title: Cloud Enumeration
+slug: cloud-enumeration
 excerpt: Cloud infrastructure discovery and enumeration techniques
 hidden: false
 ---

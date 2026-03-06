@@ -1,5 +1,6 @@
 ---
 title: FTP Services
+slug: ftp
 excerpt: File Transfer Protocol enumeration and exploitation techniques
 hidden: false
 ---

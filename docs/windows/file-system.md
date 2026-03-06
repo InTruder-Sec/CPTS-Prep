@@ -1,5 +1,6 @@
 ---
 title: Windows File System
+slug: windows-file-system
 excerpt: NTFS permissions, file system enumeration, and share access
 hidden: false
 ---

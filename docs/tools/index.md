@@ -1,5 +1,6 @@
 ---
 title: Penetration Testing Tools
+slug: tools
 excerpt: Essential tools and techniques for penetration testing
 hidden: false
 ---

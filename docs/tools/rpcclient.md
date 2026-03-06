@@ -1,5 +1,6 @@
 ---
 title: RPCclient
+slug: rpcclient
 excerpt: Remote Procedure Call client for SMB enumeration
 hidden: false
 ---

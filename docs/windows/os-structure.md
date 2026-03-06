@@ -1,5 +1,6 @@
 ---
 title: Windows OS Structure
+slug: windows-os-structure
 excerpt: Understanding Windows directory structure and system organization
 hidden: false
 ---

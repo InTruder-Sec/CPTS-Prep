@@ -1,5 +1,6 @@
 ---
 title: SSL Enumeration
+slug: ssl-enumeration
 excerpt: SSL/TLS certificate enumeration for subdomain discovery
 hidden: false
 ---

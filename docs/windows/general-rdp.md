@@ -1,5 +1,6 @@
 ---
 title: Windows General & RDP
+slug: windows-general-rdp
 excerpt: Windows information gathering and Remote Desktop Protocol usage
 hidden: false
 ---

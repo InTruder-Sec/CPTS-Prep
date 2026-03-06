@@ -1,5 +1,6 @@
 ---
 title: Footprinting
+slug: footprinting
 excerpt: Systematic enumeration methodology and layer-based approach
 hidden: false
 ---

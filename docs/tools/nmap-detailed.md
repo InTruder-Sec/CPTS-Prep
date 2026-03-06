@@ -1,5 +1,6 @@
 ---
 title: Nmap - Network Mapper
+slug: nmap-detailed
 excerpt: Comprehensive guide to Nmap scanning techniques and capabilities
 hidden: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: Nmap Scanning
+slug: nmap-scanning
 excerpt: Network scanning and service enumeration with Nmap
 hidden: false
 ---

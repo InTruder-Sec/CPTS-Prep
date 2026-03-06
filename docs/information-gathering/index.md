@@ -1,5 +1,6 @@
 ---
 title: Information Gathering
+slug: information-gathering
 excerpt: Reconnaissance and enumeration techniques for penetration testing
 hidden: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: Windows Systems
+slug: windows
 excerpt: Windows enumeration, exploitation, and post-exploitation techniques
 hidden: false
 ---

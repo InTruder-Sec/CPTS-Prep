@@ -1,5 +1,6 @@
 ---
 title: SMB/CIFS Services
+slug: smb
 excerpt: Server Message Block enumeration and exploitation techniques
 hidden: false
 ---
