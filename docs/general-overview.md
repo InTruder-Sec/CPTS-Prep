@@ -1,6 +1,6 @@
 ---
 title: General Pentesting Concepts
-slug: general
+slug: general-overview
 excerpt: Core pentesting methodology, project structure, and essential tools
 hidden: false
 ---

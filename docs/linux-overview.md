@@ -1,6 +1,6 @@
 ---
 title: Linux Systems
-slug: linux
+slug: linux-overview
 excerpt: Linux-specific penetration testing techniques and commands
 hidden: false
 ---

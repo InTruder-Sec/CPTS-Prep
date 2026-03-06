@@ -11,9 +11,9 @@ This documentation includes all notes related to CPTS Exam preparation, covering
 
 ## Main Topics
 
-- [General Concepts](general/index.md) - Pentesting methodology and best practices
-- [Linux](linux/index.md) - Linux-specific techniques and commands
-- [Windows](windows/index.md) - Windows enumeration and exploitation
-- [Web Exploitation](web-exploitation/index.md) - Web application security testing
-- [Information Gathering](information-gathering/index.md) - Reconnaissance and enumeration techniques
-- [Tools](tools/index.md) - Essential penetration testing tools
+- [General Concepts](general-overview.md) - Pentesting methodology and best practices
+- [Linux](linux-overview.md) - Linux-specific techniques and commands
+- [Windows](windows-overview.md) - Windows enumeration and exploitation
+- [Web Exploitation](web-exploitation.md) - Web application security testing
+- [Information Gathering](information-gathering.md) - Reconnaissance and enumeration techniques
+- [Tools](tools-overview.md) - Essential penetration testing tools
