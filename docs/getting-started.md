@@ -1,6 +1,6 @@
 ---
-title: CPTS Exam Preparation
-slug: cpts-exam-prep
+title: Getting Started
+slug: getting-started
 excerpt: Comprehensive notes and resources for the Certified Penetration Testing Specialist (CPTS) exam
 hidden: false
 ---

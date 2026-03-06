@@ -1,10 +1,10 @@
-- index
+- getting-started
 - general-overview
 - ftp
 - smb
 - information-gathering
-- nmap-scanning
 - footprinting
+- nmap-scanning
 - ssl-enumeration
 - cloud-enumeration
 - tools-overview
