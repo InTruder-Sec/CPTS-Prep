@@ -30,3 +30,6 @@ The `rpcclient` offers us many different requests with which we can execute spec
 | `netsharegetinfo <share>` | Provides information about a specific share. |
 | `enumdomusers` | Enumerates all domain users. |
 | `queryuser <RID>` | Provides information about a specific user. |
+
+
+TODO: more to add
