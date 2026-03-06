@@ -15,7 +15,7 @@ Pentesting methodology
 | `7. Proof-of-Concept` | We create a proof-of-concept that proves that these vulnerabilities exist and potentially even automate the individual steps that trigger these vulnerabilities. |
 | `8. Post-Engagement` | Finally, the documentation is completed and presented to our client as a formal report deliverable. Afterward, we may hold a report walkthrough meeting to clarify anything about our testing or results and provide any needed support to personnel tasked with remediating our findings. |
 
-| Internal Vulnerability Assessment | ☐ External Vulnerability Assessment |
+| ☐ Internal Vulnerability Assessment | ☐ External Vulnerability Assessment |
 | --- | --- |
 | ☐ Internal Penetration Test | ☐ External Penetration Test |
 | ☐ Wireless Security Assessment | ☐ Application Security Assessment |
@@ -92,11 +92,11 @@ Common tools:
 
 `netcat`  - connecting to open ports includes banner grabbing
 
-`socat`  - another handy tool for connectiion and better shells
+`socat`  - another handy tool for connection and better shells
 
 `tmux`  - multiple terminals
 
-vim: [**cheatsheet**](https://vimsheet.com/)
+**vim**: [cheatsheet](https://vimsheet.com/)
 
 | **Command** | **Description** |
 | --- | --- |
@@ -115,7 +115,7 @@ vim: [**cheatsheet**](https://vimsheet.com/)
 | `:q!` | Quit without saving |
 | `:wq` | Write and quit |
 
-Privilege Escalations Resources
+### Privilege Escalation Resources
 
 [https://book.hacktricks.wiki/en/index.html](https://book.hacktricks.wiki/en/index.html)
 
@@ -135,12 +135,12 @@ Privilege Escalations Resources
 
 [https://lolbas-project.github.io/#](https://lolbas-project.github.io/#)
 
-Some ways to escalate previlagges
-1. Check for sudo commands via `sudo -l` 
+### Some Ways to Escalate Privileges
 
-1. check for `/user/.ssh/id_rsa` if we have read access you can get into as root user
+1. Check for sudo commands via `sudo -l`
+2. Check for `/user/.ssh/id_rsa` — if you have read access, you can get in as root
 
-**File transfer**
+### File Transfer
 `python3 -m http.server 8000`
 `scp`
 
