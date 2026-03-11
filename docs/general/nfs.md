@@ -60,3 +60,19 @@ However, even with NFS, some settings can be dangerous for the company and its i
 | `insecure`       | Ports above 1024 will be used.                                                                                       |
 | `nohide`         | If another file system was mounted below an exported directory, this directory is exported by its own exports entry. |
 | `no_root_squash` | All files created by root are kept with the UID/GID 0.                                                               |
+
+<br />
+
+Show Available NFS Shares
+`shellsession
+InTruder2sec@htb[/htb]$ showmount -e 10.129.14.128`
+
+Export list for 10.129.14.128:
+/mnt/nfs 10.129.14.0/24
+
+Mounting NFS Share
+`shellsession
+InTruder2sec@htb[/htb]$ mkdir target-NFS
+InTruder2sec@htb[/htb]$ sudo mount -t nfs 10.129.14.128:/ ./target-NFS/ -o nolock
+InTruder2sec@htb[/htb]$ cd target-NFS
+InTruder2sec@htb[/htb]$ tree .`
