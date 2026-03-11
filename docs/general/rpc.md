@@ -9,7 +9,7 @@ metadata:
 
 The [Remote Procedure Call](https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/) (`RPC`) is a concept and, therefore, also a central tool to realize operational and work-sharing structures in networks and client-server architectures. The communication process via RPC includes passing parameters and the return of a function value.
 
-### **RPCclient**
+### RPCclient
 
 ```
         shellsession
@@ -28,7 +28,7 @@ The `rpcclient` offers us many different requests with which we can execute sp
 | `enumdomusers`            | Enumerates all domain users.                                       |
 | `queryuser <RID>`         | Provides information about a specific user.                        |
 
-### **Brute Forcing User RIDs**
+### Brute Forcing User RIDs
 
 ```
         shellsession
@@ -37,7 +37,7 @@ InTruder2sec@htb[/htb]$ for iin $(seq 500 1100);do rpcclient -N -U"" 10.129.14.1
 
 An alternative to this would be a Python script from [Impacket](https://github.com/SecureAuthCorp/impacket) called [samrdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/samrdump.py).
 
-### **Impacket - Samrdump.py**
+### Impacket - Samrdump.py
 
 ```
         shellsession
@@ -46,14 +46,14 @@ InTruder2sec@htb[/htb]$ samrdump.py 10.129.14.128
 
 The information we have already obtained with `rpcclient` can also be obtained using other tools. For example, the [SMBMap](https://github.com/ShawnDEvans/smbmap) and [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) tools are also widely used and helpful for the enumeration of SMB services.
 
-### **SMBmap**
+### SMBmap
 
 ```
         shellsession
 InTruder2sec@htb[/htb]$ smbmap -H 10.129.14.128
 ```
 
-### **CrackMapExec**
+### CrackMapExec
 
 ```
         shellsession
@@ -62,14 +62,14 @@ InTruder2sec@htb[/htb]$ crackmapexec smb 10.129.14.128 --shares -u'' -p''
 
 Another tool worth mentioning is the so-called [enum4linux-ng](https://github.com/cddmp/enum4linux-ng), which is based on an older tool, enum4linux. This tool automates many of the queries, but not all, and can return a large amount of information.
 
-### **Enum4Linux-ng - Installation**
+### Enum4Linux-ng - Installation
 
 ```
         shellsession
 InTruder2sec@htb[/htb]$ git clone https://github.com/cddmp/enum4linux-ng.gitInTruder2sec@htb[/htb]$ cd enum4linux-ngInTruder2sec@htb[/htb]$ pip3 install -r requirements.txt
 ```
 
-### **Enum4Linux-ng - Enumeration**
+### Enum4Linux-ng - Enumeration
 
 ```
         shellsession
