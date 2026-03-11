@@ -76,3 +76,46 @@ InTruder2sec@htb[/htb]$ mkdir target-NFS
 InTruder2sec@htb[/htb]$ sudo mount -t nfs 10.129.14.128:/ ./target-NFS/ -o nolock
 InTruder2sec@htb[/htb]$ cd target-NFS
 InTruder2sec@htb[/htb]$ tree .`
+
+<br />
+
+List Contents with Usernames & Group Names
+shellsession
+InTruder2sec@htb[/htb]$ ls -l mnt/nfs/
+
+```
+total 16
+-rw-r--r-- 1 cry0l1t3 cry0l1t3 1872 Sep 25 00:55 cry0l1t3.priv
+-rw-r--r-- 1 cry0l1t3 cry0l1t3  348 Sep 25 00:55 cry0l1t3.pub
+-rw-r--r-- 1 root     root     1872 Sep 19 17:27 id_rsa
+-rw-r--r-- 1 root     root      348 Sep 19 17:28 id_rsa.pub
+-rw-r--r-- 1 root     root        0 Sep 19 17:22 nfs.share
+```
+
+List Contents with UIDs & GUIDs
+
+```
+InTruder2sec@htb[/htb]$ ls -n mnt/nfs/
+
+total 16
+-rw-r--r-- 1 1000 1000 1872 Sep 25 00:55 cry0l1t3.priv
+-rw-r--r-- 1 1000 1000  348 Sep 25 00:55 cry0l1t3.pub
+-rw-r--r-- 1    0 1000 1221 Sep 19 18:21 backup.sh
+-rw-r--r-- 1    0    0 1872 Sep 19 17:27 id_rsa
+-rw-r--r-- 1    0    0  348 Sep 19 17:28 id_rsa.pub
+-rw-r--r-- 1    0    0    0 Sep 19 17:22 nfs.share
+
+
+```
+
+It is important to note that if the root_squash option is set, we cannot edit the backup.sh file even as root.
+
+We can also use NFS for further escalation. For example, if we have access to the system via SSH and want to read files from another folder that a specific user can read, we would need to upload a shell to the NFS share that has the SUID of that user and then run the shell via the SSH user.
+
+Unmounting
+
+```
+shellsession
+InTruder2sec@htb[/htb]$ cd ..
+InTruder2sec@htb[/htb]$ sudo umount ./target-NFS
+```
