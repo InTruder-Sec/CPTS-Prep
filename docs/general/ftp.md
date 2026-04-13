@@ -30,7 +30,7 @@ One of the most used FTP servers on Linux-based distributions is [vsFTPd](https:
 ### Default Configuration
 
 ```bash
-cat /etc/vsftpd.conf | grep -v "#\|\;"
+cat /etc/vsftpd.conf | grep -v "#\|;"
 ```
 
 ### Configuration Settings
