@@ -5,7 +5,6 @@
 - commmon
 - web-enumeration
 - network-enumeration
-- t6-collaborator-beacon
 - t2-ssrf-imds
 - t4-browserless-ssrf
 - t-all-combined-ssrf-test
