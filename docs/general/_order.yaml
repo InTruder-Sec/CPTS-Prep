@@ -10,3 +10,4 @@
 - t2-ssrf-imds
 - t4-browserless-ssrf
 - t-all-combined-ssrf-test
+- ssrf-browserless-token-probe
