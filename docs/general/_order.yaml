@@ -7,3 +7,4 @@
 - network-enumeration
 - try-ssrf
 - t6-collaborator-beacon
+- t2-ssrf-imds
