@@ -11,3 +11,4 @@
 - t4-browserless-ssrf
 - t-all-combined-ssrf-test
 - ssrf-browserless-token-probe
+- p1-config
